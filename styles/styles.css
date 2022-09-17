@@ -1,0 +1,59 @@
+h1, 
+label, 
+input,
+.links,
+table{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+label,
+input, 
+table,
+.links{
+    font-weight: 500;
+}
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+form{
+    padding: 3em;
+    width: 18em;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: .5em;
+}
+h1{
+    margin-bottom: 1em;
+}
+
+input{
+    display: block;
+    margin-block: 1em;
+}
+.submit-button:hover{
+    cursor: pointer;
+}
+.container{
+    padding: 3em;
+    width: 25em;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: .5em;
+}
+ul{
+    list-style:lower-alpha;
+
+}
+.links{
+    text-decoration: none;
+    color: black;
+    
+}
+.links:hover{
+    text-decoration: underline;
+}
+select{
+    display: block;
+}
+td{
+    font-weight: 500;
+}
