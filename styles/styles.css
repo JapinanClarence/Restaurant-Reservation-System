@@ -16,12 +16,7 @@ section{
     display: flex;
     align-items: center;
 }
-form{
-    padding: 3em;
-    width: 18em;
-    background-color: rgba(0, 0, 0, .2);
-    border-radius: .5em;
-}
+
 h1{
     margin-bottom: 1em;
 }
@@ -41,7 +36,6 @@ input{
 }
 ul{
     list-style:lower-alpha;
-
 }
 .links{
     text-decoration: none;
@@ -54,6 +48,16 @@ ul{
 select{
     display: block;
 }
-td{
-    font-weight: 500;
+.content-table{
+   border-collapse: collapse;
+   margin: 25px 0; 
+   font-size: .9rem;
+}
+.content-table thead tr{
+    text-align: left;
+    font-weight: bold;
+}
+.content-table th,
+.content-table td{
+    padding: 12px 15px;
 }
